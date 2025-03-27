@@ -1,0 +1,75 @@
+# PHP specific
+/vendor/
+composer.phar
+composer.lock
+.env
+.env.*
+!.env.example
+*.log
+*.cache
+*.swp
+*.swo
+.DS_Store
+
+# IDE - PHPStorm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# IDE - NetBeans
+/nbproject/
+/.idea/
+/.settings/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# IDE - Zend Studio
+.zfproject.xml
+
+# IDE - Visual Studio
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+/coverage/
+.phpunit.result.cache
+.phpunit.cache/
+
+# Build
+/build/
+/dist/
+*.zip
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
